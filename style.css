@@ -1,0 +1,105 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cambay:700i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Cambay', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.preview h1 {
+    text-align: center;
+}
+
+.output {
+    max-width: 101%;
+    width: 100%;
+    background: #ffffff00;
+    border: none;
+    height: 100%;
+    word-wrap: normal;
+    font-family: monospace;
+}
+
+.preview {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    background: #f4f4f4;
+}
+
+.customize {
+    position: absolute;
+    background: linear-gradient(90deg, #f4a5775a, #00000000);
+    width: 49%;
+    height: 100%;
+}
+
+.customize-content {
+    text-align: center;
+}
+
+.customize-content input, textarea {
+    padding: 2px;
+    border: none;
+    border-bottom: #000 2px solid;
+    background: none;
+    max-width: 250px;
+    width: 50%;
+}
+
+.customize-content textarea {
+    height: 60px;
+    resize: none;
+}
+
+.copy-btn {
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 100%;
+    width: 30%;
+    height: 40px;
+    transform: translate(-110%, -60px);
+    
+    border: #45ff55 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    color: #45ff55;
+    transition: 0.2s;
+    font-size: 16px;
+    background: #ffffff00;
+}
+
+.copy-btn:hover {
+    color: #35b840;
+    border: #35b840 2px solid;
+    transition: 0.2s;
+}
+
+.customize-content input[type="reset"] {
+    border: #ffc745 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffc745;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+.customize-content input[type="reset"]:hover {
+    color: #ff4545;
+    border: #ff4545 2px solid;
+    transition: 0.2s;
+}

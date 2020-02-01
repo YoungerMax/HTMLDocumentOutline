@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Make HTML Standard</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Make an HTML document">
+        <meta name="keywords" content="HTML,Document,Easy,Helpful">
+        <meta name="author" content="Somebody on the Internet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>        
+        <div class="customize">
+            <div class="customize-content">
+                <h1>Customize</h1>
+                
+                <form>
+                    <label>Document title:</label><br />
+                    <input type="text" class="title-input" /><br /><br />
+
+                    <label>Author of your site:</label><br />
+                    <input type="text" class="author-input" /><br /><br />
+
+                    <label>Keywords that apply to your site:</label><br />
+                    <textarea class="keywords-input"></textarea><br /><br />
+
+                    <label>Description of your site:</label><br />
+                    <textarea class="description-input"></textarea><br /><br />
+
+                    <label>Link external CSS file</label><br />
+                    <input type="text" class="css-input" /><br /><br />
+
+                    <label>Link external JavaScript file</label><br />
+                    <input type="text" class="js-input" />
+                    <br />
+                    <br />
+                    <br />
+                    <input type="reset" value="Clear input" />
+                </form>
+            </div>
+        </div>
+        
+        <div class="preview">
+            <h1>Preview</h1>
+            <textarea class="output">Fill out the form to the left to see this update live!</textarea>
+        </div>
+        <br />
+        <button class="copy-btn">Copy</button>
+    </body>
+    <script src="app.js"></script>
+</html>
