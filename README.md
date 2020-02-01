@@ -3,4 +3,4 @@ HTML Document Outline helps you make an HTML document with all the meta tags, li
 HTML Document Outline is a work in progress.
 
 ## Contribute
-As always with my projects, please help me with this project by contibuting to it.
+As always with my projects, please help me with this project by contibuting to it, but **please** read the wiki!
